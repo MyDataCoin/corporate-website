@@ -113,7 +113,7 @@
                 <a href="https://mydatacoin.io/menu/Whitepaper.pdf">
                   <p>{{ $t("footer_privacy_tos_WP") }}</p>
                 </a>
-                <a href="https://mydatacoin.io/menu/Pitch%20Deck.pdf">
+                <a href="https://mydatacoin.io/menu/deck.pdf">
                   <p>{{ $t("footer_privacy_tos_PD") }}</p>
                 </a>
               </div>
