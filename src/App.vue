@@ -102,10 +102,10 @@
                   </router-link>
                 </a>
 
-                <a href="https://mydatacoin.io/menu/Whitepaper.pdf">
+                <a href="./menu/Whitepaper.pdf" target="_blank">
                   <p>{{ $t("footer_privacy_tos_WP") }}</p>
                 </a>
-                <a href="https://mydatacoin.io/menu/deck.pdf">
+                <a href="./menu/deck.pdf">
                   <p>{{ $t("footer_privacy_tos_PD") }}</p>
                 </a>
               </div>
