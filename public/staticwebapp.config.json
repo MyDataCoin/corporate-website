@@ -2,17 +2,11 @@
   "globalHeaders": {
     "content-security-policy": "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'none'"
   },
-  "navigationFallback": {
-    "rewrite": "/index.html"
-  },
   "routes": [
     {"route": "/img/*",
       "headers": {
         "cache-control": "must-revalidate, max-age=15770000"
       }
     }
-  ],
-  "mimeTypes": {
-    "custom": "text/html"
-  }
+  ]
 }
