@@ -1,4 +1,4 @@
-# mdc-website
+# MyDataCoin
 
 ## Project setup
 ```
