@@ -91,8 +91,8 @@ const { t } = useI18n({ useScope: "global" });
         <div class="service-img-wrapper col-lg-6 col-md-12 col-sm-12">
           <div class="image-box">
             <img
-              src="../assets/img/2.svg"
-              width="200px"
+              src="../assets/img/phone.png"
+              width="300px"
               class="center-block img-responsive phone-img"
               alt=""
             />

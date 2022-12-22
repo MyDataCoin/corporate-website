@@ -24,7 +24,7 @@ const { t } = useI18n({ useScope: "global" });
 
       <div class="row">
         <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-4">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="single-team-member fadeInUp" data-wow-delay="0.2s">
             <!-- Image -->
             <div class="team-member-thumb">
@@ -50,35 +50,7 @@ const { t } = useI18n({ useScope: "global" });
         </div>
 
         <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-4">
-          <div class="single-team-member fadeInUp" data-wow-delay="0.3s">
-            <!-- Image -->
-            <div class="team-member-thumb">
-              <img
-                src="../assets/img/team-img/06.png"
-                class="center-block"
-                alt=""
-              />
-            </div>
-            <!-- Team Info -->
-            <div class="team-info">
-              <h5>{{ $t("ourexperts_saaly_title") }}</h5>
-              <p>{{ $t("ourexperts_saaly_desc") }}</p>
-            </div>
-            <!-- Social Icon -->
-            <div class="team-social-icon">
-              <a href="https://twitter.com/STemirkanov"
-                ><i class="fa fa-twitter"></i
-              ></a>
-              <a href="https://www.linkedin.com/in/saaly-2021/"
-                ><i class="fa fa-linkedin"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-4">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="single-team-member fadeInUp" data-wow-delay="0.4s">
             <!-- Image -->
             <div class="team-member-thumb">
@@ -104,11 +76,9 @@ const { t } = useI18n({ useScope: "global" });
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="row">
+        
         <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-6">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="single-team-member fadeInUp" data-wow-delay="0.5s">
             <!-- Image -->
             <div class="team-member-thumb">
@@ -135,7 +105,7 @@ const { t } = useI18n({ useScope: "global" });
         </div>
 
         <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-6">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="single-team-member fadeInUp" data-wow-delay="0.5s">
             <!-- Image -->
             <div class="team-member-thumb">
@@ -181,7 +151,7 @@ const { t } = useI18n({ useScope: "global" });
 
       <div class="row">
         <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-4">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="single-team-member fadeInUp" data-wow-delay="0.5s">
             <!-- Image -->
             <div class="team-member-thumb">
@@ -206,7 +176,35 @@ const { t } = useI18n({ useScope: "global" });
         </div>
 
         <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-4">
+        <div class="col-12 col-sm-6 col-lg-3">
+          <div class="single-team-member fadeInUp" data-wow-delay="0.3s">
+            <!-- Image -->
+            <div class="team-member-thumb">
+              <img
+                src="../assets/img/team-img/06.png"
+                class="center-block"
+                alt=""
+              />
+            </div>
+            <!-- Team Info -->
+            <div class="team-info">
+              <h5>{{ $t("ourexperts_saaly_title") }}</h5>
+              <p>{{ $t("ourexperts_saaly_desc") }}</p>
+            </div>
+            <!-- Social Icon -->
+            <div class="team-social-icon">
+              <a href="https://twitter.com/STemirkanov"
+                ><i class="fa fa-twitter"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/saaly-2021/"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Single Team Member -->
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="single-team-member fadeInUp" data-wow-delay="0.5s">
             <!-- Image -->
             <div class="team-member-thumb">
@@ -232,7 +230,7 @@ const { t } = useI18n({ useScope: "global" });
         </div>
 
         <!-- Single Team Member -->
-        <div class="col-12 col-sm-6 col-lg-4">
+        <div class="col-12 col-sm-6 col-lg-3">
           <div class="single-team-member fadeInUp" data-wow-delay="0.5s">
             <!-- Image -->
             <div class="team-member-thumb">
