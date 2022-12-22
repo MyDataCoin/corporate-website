@@ -33,11 +33,11 @@
               </div>
                 <Navbar></Navbar>
               <div>
-                <select class="selectpicker">
+                <!-- <select class="selectpicker">
                   <option v-lang.language="'EN'" @click="$language = 'en'"><a href="#" >English</a></option>
                   <option v-lang.language="'RU'" @click="$language = 'ru'"><a href="#" >Русский</a></option>
                   <option v-lang.language="'KZ'" @click="$language = 'kz'"><a href="#">Қазақша</a></option>
-                </select>
+                </select> -->
               </div>
             </div>
             <!-- Nav End -->
