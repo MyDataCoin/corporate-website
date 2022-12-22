@@ -7,8 +7,9 @@ import "bootstrap/dist/js/bootstrap.min.js";
 // import "./assets/css/bootstrap.min.css";
 import "./assets/css/bootstrap.min.css"
 import "./assets/css/style.css";
+import i18n from './i18n'
 
-createApp(App)
+createApp(App).use(i18n)
    .use(store)
    .use(router)
    .mount('#app')

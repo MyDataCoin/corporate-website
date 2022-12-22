@@ -32,13 +32,17 @@
                 </router-link>
               </div>
                 <Navbar></Navbar>
-              <div>
-                <!-- <select class="selectpicker">
+                <div class="topmenu"  @click="toggleMenu">
+                  <!-- <img class="lang_logo" src="./assets/img/lang.png" alt="lang.png"> -->
+                  <LanguageSwitcher />
+                </div>  
+              <!-- <div>
+                <select class="selectpicker">
                   <option v-lang.language="'EN'" @click="$language = 'en'"><a href="#" >English</a></option>
                   <option v-lang.language="'RU'" @click="$language = 'ru'"><a href="#" >Русский</a></option>
                   <option v-lang.language="'KZ'" @click="$language = 'kz'"><a href="#">Қазақша</a></option>
-                </select> -->
-              </div>
+                </select>
+              </div> -->
             </div>
             <!-- Nav End -->
           </div>
@@ -155,9 +159,11 @@
 
 <script>
 import Navbar from "./components/Navbar.vue"
+import LanguageSwitcher from './components/LanguageSwitcher.vue';
 export default {
   components:{
-      Navbar
+      Navbar,
+      LanguageSwitcher
   },
 };
 
