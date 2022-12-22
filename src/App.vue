@@ -144,7 +144,7 @@
                   {{ $t("footer_contactus_4") }}
                 </p>
                 <br/>
-                <a href="https://www.producthunt.com/posts/mydatacoin?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mydatacoin" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372164&theme=light" alt="MyDataCoin - Your&#0032;data&#0032;&#0045;&#0032;Your&#0032;digital&#0032;asset&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+                <a href="https://www.producthunt.com/posts/mydatacoin?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mydatacoin" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372164&theme=neutral" alt="MyDataCoin - Your&#0032;data&#0044;&#0032;your&#0032;digital&#0032;asset | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
               </div>
             </div>
           </div>
