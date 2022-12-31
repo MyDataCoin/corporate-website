@@ -6,47 +6,47 @@
         <!-- Classy Menu -->
         <!-- <nav class="classy-navbar justify-content-between" id="dreamNav"> -->
             <!-- Nav Start -->
-            <div class="classynav">
-              <ul id="nav">
-                <li>
-                  <a href="#home" lang="en">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home" lang="en">
                     {{ $t("menu_home") }}
                   </a>
                 </li>
-                <li>
-                  <a href="#about">
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">
                     {{ $t("menu_about") }}
                   </a>
                 </li>
-                <li>
-                  <a href="#services">
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">
                     {{ $t("menu_values") }}
                   </a>
                 </li>
-                <li>
-                  <a href="#dapp">
+                <li class="nav-item">
+                  <a class="nav-link" href="#dapp">
                     {{ $t("menu_dapp") }}
                   </a>
                 </li>
-                <li>
-                  <a href="#team">
+                <li class="nav-item">
+                  <a class="nav-link" href="#team">
                     {{ $t("menu_team") }}
                   </a>
                 </li>
-                <li>
-                  <a href="#contact">
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">
                     {{ $t("menu_contact") }}
                   </a>
                 </li>
-                <!-- <li>
-                  <select class="selectpicker">
-                    <option><a href="#">English</a></option>
-                    <option><a href="#">Русский</a></option>
-                    <option><a href="#">Қазақша</a></option>
-                  </select>
-                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    <select class="selectpicker">
+                      <option v-lang.language="'EN'" @click="$language = 'en'"><a href="#" >English</a></option>
+                      <option v-lang.language="'RU'" @click="$language = 'ru'"><a href="#" >Русский</a></option>
+                      <option v-lang.language="'KZ'" @click="$language = 'kz'"><a href="#">Қазақша</a></option>
+                    </select>
+                  </a>
+                </li>
               </ul>
-            </div>
             <!-- Nav End -->
         <!-- </nav> -->
   <!-- ##### Header Area End ##### -->

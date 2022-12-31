@@ -3,48 +3,17 @@
   <div class="header-area fadeInDown" data-wow-delay="0.2s">
     <div class="classy-nav-container breakpoint-off">
       <div class="container">
-        <!-- Classy Menu -->
-        <nav class="classy-navbar justify-content-between" id="dreamNav">
-          <!-- Logo -->
-          <a class="nav-brand" href="#">
-            <img src="./assets/img/core-img/logo.png" alt="logo" />
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a href="#" class="navbar-brand nav-custom-style">
+            <img src="./assets/img/core-img/logo.png" alt="logo" style="display: inline" />
             MyDataCoin
           </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-          <!-- Navbar Toggler -->
-          <div class="classy-navbar-toggler">
-            <span class="navbarToggler">
-              <span></span><span></span><span></span></span>
-          </div>
-
-          <!-- Menu -->
-          <div class="classy-menu">
-            <!-- close btn -->
-            <div class="classycloseIcon">
-              <div class="cross-wrap">
-                <span class="top"></span><span class="bottom"></span>
-              </div>
-            </div>
-            <!-- Nav Start -->
-            <div class="classynav">
-              <div>
-                <router-link to="/Navbar" class="logo__link"> 
-                </router-link>
-              </div>
-                <Navbar></Navbar>
-                <div class="topmenu"  @click="toggleMenu">
-                  <!-- <img class="lang_logo" src="./assets/img/lang.png" alt="lang.png"> -->
-                  <LanguageSwitcher />
-                </div>  
-              <!-- <div>
-                <select class="selectpicker">
-                  <option v-lang.language="'EN'" @click="$language = 'en'"><a href="#" >English</a></option>
-                  <option v-lang.language="'RU'" @click="$language = 'ru'"><a href="#" >Русский</a></option>
-                  <option v-lang.language="'KZ'" @click="$language = 'kz'"><a href="#">Қазақша</a></option>
-                </select>
-              </div> -->
-            </div>
-            <!-- Nav End -->
+          <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
+            <Navbar />
           </div>
         </nav>
       </div>
@@ -147,6 +116,8 @@
                 <p>
                   {{ $t("footer_contactus_4") }}
                 </p>
+                <br/>
+                <a href="https://www.producthunt.com/posts/mydatacoin?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mydatacoin" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372164&theme=neutral" alt="MyDataCoin - Your&#0032;data&#0044;&#0032;your&#0032;digital&#0032;asset | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
               </div>
             </div>
           </div>
@@ -155,7 +126,15 @@
     </div>
 </template>
 
-
+<style scoped>
+.nav-custom-style {
+  color: #565656;
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 26px;
+  font-weight: 500;
+}
+</style>
 
 <script>
 import Navbar from "./components/Navbar.vue"
