@@ -138,9 +138,11 @@
 
 <script>
 import Navbar from "./components/Navbar.vue"
+import LanguageSwitcher from './components/LanguageSwitcher.vue';
 export default {
   components:{
-      Navbar
+      Navbar,
+      LanguageSwitcher
   },
 };
 

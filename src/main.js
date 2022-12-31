@@ -8,27 +8,9 @@ import 'jquery/src/jquery.js';
 import "./assets/js/bootstrap.min.js"
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/style.css";
+import i18n from './i18n'
 
-import { Languages } from './i18n';
-import { defaultLocale } from './i18n';
-
-import { createI18n, useI18n } from 'vue-i18n';
-
-const messages = Object.assign(Languages)
-const i18n = createI18n({
-   legacy: false,
-   locale: defaultLocale,
-   fallbackLocale: 'en',
-   messages
-})
-
-createApp(App, {
-   setup() {
-      const {t} = useI18n()
-      return {t}
-   }
-})
-   .use(i18n)
+createApp(App).use(i18n)
    .use(store)
    .use(router)
    .mount('#app')
