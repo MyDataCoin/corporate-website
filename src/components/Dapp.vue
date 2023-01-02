@@ -47,11 +47,10 @@
                 <img src="../assets/img/svg/feature1.svg" alt="" />
               </div>
               <h3>
-                <a href="#">Your data explorer</a>
+                <a href="#">{{ $t("ourmobileapp_yourdataexplorer_title") }}</a>
               </h3>
               <div class="text">
-                User-friendly and intuitive interface for managing the privacy
-                of your data
+                {{ $t("ourmobileapp_yourdataexplorer_desc") }}
               </div>
             </div>
           </div>
@@ -62,10 +61,9 @@
               <div class="icon-img-box">
                 <img src="../assets/img/svg/feature2.svg" alt="" />
               </div>
-              <h3><a href="#">Signing smart contracts</a></h3>
+              <h3><a href="#">{{ $t("ourmobileapp_signingsmartcontracts_title") }}</a></h3>
               <div class="text">
-                Smart Contracts based on CosmWasm used for confidence in the
-                transparency of the fulfillment of obligations
+                {{ $t("ourmobileapp_signingsmartcontracts_desc") }}
               </div>
             </div>
           </div>
@@ -76,22 +74,16 @@
               <div class="icon-img-box">
                 <img src="../assets/img/svg/feature3.svg" alt="" />
               </div>
-              <h3><a href="#">Send and receive your dividends</a></h3>
+              <h3><a href="#">{{ $t("ourmobileapp_sendandrecive_title") }}</a></h3>
               <div class="text">
-                Less than 10 seconds to confirm a transaction with a price less
-                than 0.01$
+                {{ $t("ourmobileapp_sendandrecive_decs") }}
               </div>
             </div>
           </div>
         </div>
         <div class="service-img-wrapper col-lg-6 col-md-12 col-sm-12">
           <div class="image-box">
-            <img
-              src="../assets/img/phone.png"
-              width="300px"
-              class="center-block img-responsive phone-img"
-              alt=""
-            />
+            <img src="../assets/img/phone.png" class="center-block img-responsive phone-img" alt="" />
           </div>
         </div>
       </div>

@@ -37,15 +37,7 @@
                     {{ $t("menu_contact") }}
                   </a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    <select class="selectpicker">
-                      <option v-lang.language="'EN'" @click="$language = 'en'"><a href="#" >English</a></option>
-                      <option v-lang.language="'RU'" @click="$language = 'ru'"><a href="#" >Русский</a></option>
-                      <option v-lang.language="'KZ'" @click="$language = 'kz'"><a href="#">Қазақша</a></option>
-                    </select>
-                  </a>
-                </li>
+                
               </ul>
             <!-- Nav End -->
         <!-- </nav> -->
