@@ -1,8 +1,4 @@
-<script setup>
-import { useI18n } from "vue-i18n";
 
-const { t } = useI18n({ useScope: "global" });
-</script>
 
 
 <template>
@@ -268,10 +264,9 @@ const { t } = useI18n({ useScope: "global" });
         >
           <span class="gradient-text blue"></span>
         </div>
-        <h2 class="fadeInUp" data-wow-delay="0.3s">Our powerful Partners</h2>
+        <h2 class="fadeInUp" data-wow-delay="0.3s">{{ $t("our_powerful_partners_title") }}</h2>
         <p class="fadeInUp" data-wow-delay="0.4s">
-          Our partners contribute more than money. Their ideas, in-kind support
-          and more are helping to build better products.
+          {{ $t("our_powerful_partners_desc") }}
         </p>
       </div>
       <div class="row">

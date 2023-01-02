@@ -13,7 +13,11 @@
           </button>
 
           <div class="collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
-            <Navbar />
+            <Navbar></Navbar>
+                <div class="topmenu"  @click="toggleMenu">
+                  <!-- <img class="lang_logo" src="./assets/img/lang.png" alt="lang.png"> -->
+                  <LanguageSwitcher />
+                </div>  
           </div>
         </nav>
       </div>
@@ -108,9 +112,6 @@
                 <h5>{{ $t("footer_contactus_title") }}</h5>
                 <p>{{ $t("footer_contactus_1") }}</p>
                 <p>
-                  {{ $t("footer_contactus_2") }}
-                </p>
-                <p>
                   {{ $t("footer_contactus_3") }}
                 </p>
                 <p>
@@ -138,9 +139,11 @@
 
 <script>
 import Navbar from "./components/Navbar.vue"
+import LanguageSwitcher from './components/LanguageSwitcher.vue';
 export default {
   components:{
-      Navbar
+      Navbar,
+      LanguageSwitcher
   },
 };
 

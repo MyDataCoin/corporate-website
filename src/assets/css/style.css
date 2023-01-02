@@ -1556,11 +1556,12 @@ p.artficial:before{
         margin-top: 30px !important
     }
     .service-img-wrapper .phone-img{
-        padding: 0 10% !important
+        padding: 0 10% !important;
+        width: auto;
     }
     .service-img-wrapper .image-box .rings {
         left: 17% !important;
-        width: 66%;
+        width: 40%;
     }
 }
 
@@ -1699,6 +1700,7 @@ p.artficial:before{
 .service-img-wrapper .image-box img{
     animation: floating2 7s infinite;
     -webkit-animation: floating2 7s infinite;
+    width: 40%;
 }
 @media (min-width: 992px){
     .service-img-wrapper .image-box{
@@ -3685,6 +3687,8 @@ textarea:required {
     position: absolute;
     top: 8px;
     padding: 7px;
+    height: 40px;
+    width: 40px;
     /* border: 1px solid; */
     left: 0;
 }

@@ -1,8 +1,4 @@
-<script setup>
-import { useI18n } from "vue-i18n";
 
-const { t } = useI18n({ useScope: "global" });
-</script>
 
 <template>
   <div class="clearfix"></div>
@@ -28,7 +24,7 @@ const { t } = useI18n({ useScope: "global" });
             <div class="service_icon">
               <img src="../assets/img/features/1.png" alt="" />
             </div>
-            <h6>Privacy</h6>
+            <h6>{{ $t("ourvalues_privacy_title") }}</h6>
             <p>
               {{ $t("ourvalues_privacy") }}
             </p>
@@ -83,40 +79,23 @@ const { t } = useI18n({ useScope: "global" });
             <ul class="s-list list-unstyled mt30">
               <li>
                 <span class="s-list-icon"
-                  ><img
-                    width="40px"
-                    height="40px"
-                    src="../assets/img/network-img/core.svg"
-                /></span>
+                  ><img src="../assets/img/network-img/core.svg" /></span>
                 <p class="s-list-desc">
-                  High-performance, consistentcy, flexiblity, and secure
-                  consensus from <b>The Tendermint Core.</b>
+                  {{ $t("powerfulandsecure_desc_1") }}
                 </p>
               </li>
               <li>
                 <span class="s-list-icon"
-                  ><img
-                    width="40px"
-                    height="40px"
-                    src="../assets/img/network-img/sdk.svg"
-                /></span>
+                  ><img src="../assets/img/network-img/sdk.svg" /></span>
                 <p class="s-list-desc">
-                  A rich set of modules that address common concerns such as
-                  governance, tokens, other standards, and interactions with
-                  other blockchains from <b>Cosmos SDK.</b>
+                  {{ $t("powerfulandsecure_desc_2") }}
                 </p>
               </li>
               <li style="margin-bottom: 0">
                 <span class="s-list-icon"
-                  ><img
-                    height="40px"
-                    width="40px"
-                    src="../assets/img/network-img/ibc.svg"
-                /></span>
+                  ><img src="../assets/img/network-img/ibc.svg" /></span>
                 <p class="s-list-desc" style="margin-bottom: 0">
-                  The <b>IBC application layer</b> is used to token transfers,
-                  interchain accounts, non-fungible token transfers and oracle
-                  data feeds.
+                 {{ $t("powerfulandsecure_desc_3") }}
                 </p>
               </li>
             </ul>
