@@ -37,6 +37,11 @@
                     {{ $t("menu_contact") }}
                   </a>
                 </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="https://docs.mydatacoin.io/" target="_blank">
+                    Wiki
+                  </a>
+                </li>
                 
               </ul>
             <!-- Nav End -->
