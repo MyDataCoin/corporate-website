@@ -1556,12 +1556,11 @@ p.artficial:before{
         margin-top: 30px !important
     }
     .service-img-wrapper .phone-img{
-        padding: 0 10% !important;
-        width: auto;
+        padding: 0 10% !important
     }
     .service-img-wrapper .image-box .rings {
         left: 17% !important;
-        width: 40%;
+        width: 66%;
     }
 }
 
@@ -1700,7 +1699,6 @@ p.artficial:before{
 .service-img-wrapper .image-box img{
     animation: floating2 7s infinite;
     -webkit-animation: floating2 7s infinite;
-    width: 40%;
 }
 @media (min-width: 992px){
     .service-img-wrapper .image-box{
