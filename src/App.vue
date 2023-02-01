@@ -118,7 +118,16 @@
                   {{ $t("footer_contactus_4") }}
                 </p>
                 <br/>
-                <a href="https://www.producthunt.com/posts/mydatacoin?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mydatacoin" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372164&theme=neutral" alt="MyDataCoin - Your&#0032;data&#0044;&#0032;your&#0032;digital&#0032;asset | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+              <div class="row">
+                <div class="col-12 col-lg-6 col-md-6">
+                  <a href="https://www.producthunt.com/posts/mydatacoin?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-mydatacoin" target="_blank">
+                    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=372164&theme=neutral" alt="MyDataCoin - Your&#0032;data&#0044;&#0032;your&#0032;digital&#0032;asset | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+              </div>
+                <div class="col-12 col-lg-6 col-md-6">
+                <a href="https://www.f6s.com/mydatacoin?follow=1" target="_blank" title="Follow MyDataCoin on F6S">
+                  <img src="./assets/img/F6S.svg" alt="Follow MyDataCoin on F6S" /></a>
+                  </div>
+                  </div>
               </div>
             </div>
           </div>
